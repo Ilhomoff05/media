@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+
+}
+.images{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 250px 250px 250px;
+}
+.images img{
+    width: 100%;
+    height: 250px;
+}
+
+.images .image_text{
+    width: 100%;
+    height: 250px;
+    border: 2px solid red;
+}
